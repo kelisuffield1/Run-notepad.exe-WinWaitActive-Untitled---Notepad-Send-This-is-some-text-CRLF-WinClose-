@@ -1,0 +1,2 @@
+# Run-notepad.exe-WinWaitActive-Untitled---Notepad-Send-This-is-some-text-CRLF-WinClose-
+EndFunc   ;==>GuiTwoSayHi  ;~ Full code  Run("notepad.exe") WinWaitActive("Untitled - Notepad") Send("This is some text" &amp; @CRLF &amp;  WinClose("Untitled - Notepad") WinWaitActive("Notepad") Send("!n") $names[0] = “Alex” $names[1] = “Brett” $names[2] = “Nicholas” $names[3] = “Jos” $names[4] = “Michael” $names[5] = “George” Dim $names[6] = ["Alex", "Brett", "Nicholas", "Jos", "Michael", "George"] MsgBox (0, “Name”, $names[2]
